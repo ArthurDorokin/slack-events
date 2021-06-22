@@ -10,6 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
+    "@slack/web-api": "^6.2.4",
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
@@ -17,8 +18,12 @@
     "mongoose": "^5.12.14"
   },
   "devDependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/oauth": "^2.1.0",
     "concurrently": "^6.2.0",
-    "nodemon": "^2.0.7"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
   },
   "keywords": [
     "node",
