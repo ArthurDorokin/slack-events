@@ -21,6 +21,7 @@
     "@slack/events-api": "^3.0.1",
     "@slack/oauth": "^2.1.0",
     "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.7",
     "request": "^2.88.2"
